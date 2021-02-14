@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import WeatherTopComponent from '../components/weatherTopComponent';
 import WeatherBottomComponent from '../components/weatherBottomComponent';
 import { LONDON,CALGARY,TORONTO } from '../constants';
-import "../App.css"
+import '../styles.less';
 
 export default function WeatherComponent(props){
     const { onCityClick,
