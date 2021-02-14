@@ -7,7 +7,7 @@ import { DEFAULT_CITY, LONDON, CALGARY,TORONTO } from '../constants';
 
 export default class WeatherContainer extends Component {
 
-    /*   *
+    /*  *
         *  Initializer
         *------------------------------------------------------------
     */
@@ -26,13 +26,13 @@ export default class WeatherContainer extends Component {
         this.onCityTrigger = this.onCityTrigger.bind(this);
     }
 
-    /* *
+    /*  *
         *  Utility
         *------------------------------------------------------------
     */
     //Nothing
 
-    /* *
+    /*  *
         *  Component Life-cycle Management
         *------------------------------------------------------------
     */
@@ -49,7 +49,7 @@ export default class WeatherContainer extends Component {
         }
     }
 
-    /* *
+    /*  *
         *  API callback functions
         *------------------------------------------------------------
     */
@@ -58,7 +58,7 @@ export default class WeatherContainer extends Component {
         getWeatherDataAPI(latitude,longitude,onSuccessCallBack,onFailureCallBack)
     }
 
-    /* *
+    /*  *
         *  Event handling functions
         *------------------------------------------------------------
     */
@@ -118,7 +118,7 @@ export default class WeatherContainer extends Component {
     }
     //*********************** API Response handler********************************//
 
-    /* *
+    /*  *
         *  Main render function
         *------------------------------------------------------------
     */
